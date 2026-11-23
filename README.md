@@ -12,10 +12,10 @@ Official ROS 2 autonomy, control, state-estimation, and perception workspace for
 ## Live Demos
 
 ### 1. Real-World Pool Perception (`makara_vision` — Custom YOLO)
-Real underwater pool testing detecting `gate` (`0.94`) and `orange_flare` with surface reflections and turbidity:
+Real underwater pool testing with multi-class bounding-box detection across underwater gate, flare, and target objects:
 
 <p align="center">
-  <img src="assets/makara_pool_perception.gif" alt="Makara AUV Real-World Pool Perception (Gate & Orange Flare)" width="420"/>
+  <img src="assets/makara_pool_perception.gif" alt="Makara AUV Real-World Pool Perception" width="840"/>
 </p>
 
 ### 2. Real-Time 6-DOF Debug Console & 8-Thruster Allocation
