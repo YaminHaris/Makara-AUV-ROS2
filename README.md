@@ -11,26 +11,19 @@ Official ROS 2 autonomy, control, state-estimation, and perception workspace for
 
 ## Live Demos
 
-### 1. Akaei / Makara — Stonefish 3D Underwater Simulation (SAUVC Pool)
-Full physics, buoyancy, hydrodynamics, and competition arena running in **Stonefish 1.6** with EKF localization and YOLO perception:
-
-<p align="center">
-  <img src="assets/akaei_stonefish_live.gif" alt="Makara AUV in Stonefish 3D SAUVC Pool Simulator" width="840"/>
-</p>
-
-### 2. Real-Time 6-DOF Debug Console & 8-Thruster Allocation
+### 1. Real-Time 6-DOF Debug Console & 8-Thruster Allocation
 Live telemetry from `makara_control_node` (C++ PID), `thruster_mixer` (8-thruster vectored allocation), and `makara_gui` (PyQt5 + PyQtGraph):
 
 <p align="center">
   <img src="assets/makara_gui_live.gif" alt="Makara ROV Real-Time 6-DOF Debug Console" width="840"/>
 </p>
 
-### 3. Stonefish Mission Planner & Autonomous Navigation
+### 2. Stonefish Underwater Simulation & Mission Planner
 <p align="center">
   <img src="assets/makara_demo.gif" alt="Makara AUV in Stonefish Simulator with Mission Planner GUI" width="840"/>
 </p>
 
-### 4. Semantic Map & A* Path Planning
+### 3. Semantic Map & A* Path Planning
 <p align="center">
   <img src="assets/makara_semantic_nav.gif" alt="Makara Semantic Map GUI & A* Path Planner in Stonefish" width="840"/>
 </p>
