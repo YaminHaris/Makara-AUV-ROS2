@@ -18,15 +18,24 @@ Live telemetry from `makara_control_node` (C++ PID), `thruster_mixer` (8-thruste
   <img src="assets/makara_gui_live.gif" alt="Makara ROV Real-Time 6-DOF Debug Console" width="840"/>
 </p>
 
-### 2. Stonefish Underwater Simulation & Mission Planner
+### 3. Stonefish Mission Planner & Autonomous Navigation
 <p align="center">
   <img src="assets/makara_demo.gif" alt="Makara AUV in Stonefish Simulator with Mission Planner GUI" width="840"/>
 </p>
 
-### 3. Semantic Map & A* Path Planning
+### 4. Semantic Map & A* Path Planning
 <p align="center">
   <img src="assets/makara_semantic_nav.gif" alt="Makara Semantic Map GUI & A* Path Planner in Stonefish" width="840"/>
 </p>
+
+### 5. Underwater Perception (`makara_vision` — YOLOv8 Murky Pool Inference)
+Sample detections (`0.88–0.99` confidence) from our custom underwater YOLOv8 weights (`best_custom_yolo.pt`) on murky SAUVC pool frames:
+
+<p align="center">
+  <img src="assets/makara_yolo_vision.png" alt="Makara YOLOv8 Underwater Object Detection Output" width="840"/>
+</p>
+
+> **Status & Repo Note:** Simulation, 6-DOF control, EKF, and vision nodes are validated in Stonefish/Gazebo alongside ongoing physical pool trials. Published as a consolidated ROS 2 workspace snapshot across SAUVC 2026 sub-packages.
 
 ---
 
