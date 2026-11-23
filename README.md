@@ -11,14 +11,21 @@ Official ROS 2 autonomy, control, state-estimation, and perception workspace for
 
 ## Live Demos
 
-### 1. Real-Time 6-DOF Debug Console & 8-Thruster Allocation
+### 1. Real-World Pool Perception (`makara_vision` — Custom YOLO)
+Real underwater pool testing detecting `gate` (`0.94`) and `orange_flare` with surface reflections and turbidity:
+
+<p align="center">
+  <img src="assets/makara_pool_perception.gif" alt="Makara AUV Real-World Pool Perception (Gate & Orange Flare)" width="420"/>
+</p>
+
+### 2. Real-Time 6-DOF Debug Console & 8-Thruster Allocation
 Live telemetry from `makara_control_node` (C++ PID), `thruster_mixer` (8-thruster vectored allocation), and `makara_gui` (PyQt5 + PyQtGraph):
 
 <p align="center">
   <img src="assets/makara_gui_live.gif" alt="Makara ROV Real-Time 6-DOF Debug Console" width="840"/>
 </p>
 
-### 3. Stonefish Mission Planner & Autonomous Navigation
+### 3. Stonefish Underwater Simulation & Mission Planner
 <p align="center">
   <img src="assets/makara_demo.gif" alt="Makara AUV in Stonefish Simulator with Mission Planner GUI" width="840"/>
 </p>
@@ -28,14 +35,7 @@ Live telemetry from `makara_control_node` (C++ PID), `thruster_mixer` (8-thruste
   <img src="assets/makara_semantic_nav.gif" alt="Makara Semantic Map GUI & A* Path Planner in Stonefish" width="840"/>
 </p>
 
-### 5. Underwater Perception (`makara_vision` — YOLOv8 Murky Pool Inference)
-Sample detections (`0.88–0.99` confidence) from our custom underwater YOLOv8 weights (`best_custom_yolo.pt`) on murky SAUVC pool frames:
-
-<p align="center">
-  <img src="assets/makara_yolo_vision.png" alt="Makara YOLOv8 Underwater Object Detection Output" width="840"/>
-</p>
-
-> **Status & Repo Note:** Simulation, 6-DOF control, EKF, and vision nodes are validated in Stonefish/Gazebo alongside ongoing physical pool trials. Published as a consolidated ROS 2 workspace snapshot across SAUVC 2026 sub-packages.
+> **Status & Repo Note:** Simulation, 6-DOF control, EKF, and vision nodes are validated in Stonefish/Gazebo alongside ongoing physical pool trials (see real-world pool perception demo above). Published as a consolidated ROS 2 workspace snapshot across SAUVC 2026 sub-packages.
 
 ---
 
