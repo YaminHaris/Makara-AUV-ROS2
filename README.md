@@ -8,7 +8,11 @@
 Official ROS 2 workspace for **Makara**, Team Tiburon's competition Autonomous Underwater Vehicle (NIT Rourkela) built for **SAUVC 2026**.
 
 <p align="center">
-  <img src="assets/makara_demo.gif" alt="Makara AUV Simulation & Thruster Allocation Demo" width="820"/>
+  <img src="assets/makara_demo.gif" alt="Makara AUV in Stonefish Simulator with Mission Planner GUI" width="820"/>
+</p>
+
+<p align="center">
+  <img src="assets/makara_semantic_nav.gif" alt="Makara Semantic Map GUI & A* Path Planner in Stonefish" width="820"/>
 </p>
 
 ## System Architecture
